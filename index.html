@@ -5,6 +5,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>MyGym — What's Your My?</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Bebas+Neue&family=Barlow:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400&family=Barlow+Condensed:ital,wght@0,500;0,600;0,700;0,800;0,900;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <style>
 /* ══════════════════════════════════════════
@@ -37,7 +39,7 @@ html{scroll-behavior:smooth;font-size:16px}
 body{
 background:var(–black);
 color:var(–white);
-font-family:‘Barlow’,sans-serif;
+font-family:‘Barlow’,Arial,sans-serif;
 font-weight:300;
 overflow-x:hidden;
 cursor:default;
@@ -81,7 +83,7 @@ background:linear-gradient(90deg,transparent,rgba(21,96,255,.25),transparent);
 .nav-logo img{width:40px;height:40px;object-fit:contain;mix-blend-mode:screen;filter:brightness(1.2)}
 .nav-logo-text{line-height:1.1}
 .nav-logo-mark{
-font-family:‘Bebas Neue’,sans-serif;
+font-family:‘Bebas Neue’,‘Arial Narrow’,Arial,sans-serif;
 font-size:1.75rem;letter-spacing:.15em;color:var(–white);line-height:1;
 }
 .nav-logo-mark .my{color:var(–blue);font-style:italic;letter-spacing:.08em;margin-right:.06em}
@@ -89,7 +91,7 @@ font-size:1.75rem;letter-spacing:.15em;color:var(–white);line-height:1;
 
 .nav-links{display:flex;gap:2.2rem;list-style:none;align-items:center}
 .nav-links a{
-font-family:‘Barlow Condensed’,sans-serif;
+font-family:‘Barlow Condensed’,‘Arial Narrow’,Arial,sans-serif;
 font-size:.8rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;
 color:var(–silver);text-decoration:none;transition:color .2s;
 }
@@ -100,14 +102,14 @@ color:var(–silver);text-decoration:none;transition:color .2s;
 .nav-right{display:flex;align-items:center;gap:1.4rem}
 .nav-badge{
 display:flex;align-items:center;gap:.5rem;
-font-family:‘Barlow Condensed’,sans-serif;
+font-family:‘Barlow Condensed’,‘Arial Narrow’,Arial,sans-serif;
 font-size:.78rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase;
 color:var(–green);
 }
 .blink{width:7px;height:7px;border-radius:50%;background:var(–green);flex-shrink:0;animation:blink 2s ease-in-out infinite}
 @keyframes blink{0%,100%{box-shadow:0 0 0 0 rgba(0,230,118,.6)}50%{box-shadow:0 0 0 8px rgba(0,230,118,0)}}
 .nav-cta{
-font-family:‘Barlow Condensed’,sans-serif;
+font-family:‘Barlow Condensed’,‘Arial Narrow’,Arial,sans-serif;
 font-size:.82rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;
 color:var(–white);background:var(–blue);
 padding:.65rem 1.8rem;text-decoration:none;
@@ -181,14 +183,14 @@ animation:fadeup .9s cubic-bezier(.22,1,.36,1) .05s both;
 }
 .h-eyebrow-line{width:40px;height:1px;background:var(–blue)}
 .h-eyebrow-text{
-font-family:‘Barlow Condensed’,sans-serif;
+font-family:‘Barlow Condensed’,‘Arial Narrow’,Arial,sans-serif;
 font-size:.72rem;font-weight:700;letter-spacing:.4em;text-transform:uppercase;
 color:var(–blue);
 }
 
 /* THE GIANT TITLE */
 .h-title{
-font-family:‘Russo One’,sans-serif;
+font-family:‘Russo One’,‘Arial Black’,sans-serif;
 font-size:clamp(3.5rem,9vw,10rem);
 line-height:.88;letter-spacing:-.01em;text-transform:uppercase;
 margin-bottom:2.2rem;
@@ -214,7 +216,7 @@ color:transparent;letter-spacing:.04em;
 }
 
 .h-sub{
-font-family:‘Barlow Condensed’,sans-serif;
+font-family:‘Barlow Condensed’,‘Arial Narrow’,Arial,sans-serif;
 font-size:clamp(1.1rem,2.5vw,1.5rem);font-weight:300;font-style:italic;
 letter-spacing:.22em;text-transform:uppercase;color:var(–silver);
 margin-bottom:2.8rem;
@@ -237,7 +239,7 @@ display:flex;align-items:center;gap:1.2rem;flex-wrap:wrap;
 animation:fadeup .9s cubic-bezier(.22,1,.36,1) .36s both;
 }
 .btn-main{
-font-family:‘Barlow Condensed’,sans-serif;
+font-family:‘Barlow Condensed’,‘Arial Narrow’,Arial,sans-serif;
 font-size:.9rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;
 color:var(–black);background:var(–white);
 padding:1.1rem 3rem;text-decoration:none;display:inline-flex;align-items:center;gap:.7rem;
@@ -252,7 +254,7 @@ transform:translateX(-120%);transition:transform .5s ease;
 .btn-main:hover{background:var(–blue);border-color:var(–blue);color:var(–white);box-shadow:var(–glow)}
 .btn-main span{position:relative;z-index:1}
 .btn-line{
-font-family:‘Barlow Condensed’,sans-serif;
+font-family:‘Barlow Condensed’,‘Arial Narrow’,Arial,sans-serif;
 font-size:.9rem;font-weight:600;letter-spacing:.18em;text-transform:uppercase;
 color:var(–silver);background:transparent;
 padding:1.1rem 3rem;text-decoration:none;display:inline-block;
@@ -262,7 +264,7 @@ border:1.5px solid rgba(255,255,255,.1);transition:all .25s;
 
 .h-scroll{
 margin-top:2.5rem;display:flex;align-items:center;gap:.7rem;
-font-family:‘Barlow Condensed’,sans-serif;
+font-family:‘Barlow Condensed’,‘Arial Narrow’,Arial,sans-serif;
 font-size:.7rem;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:var(–muted);
 animation:fadeup .9s cubic-bezier(.22,1,.36,1) .42s both;
 }
@@ -286,12 +288,12 @@ border-bottom:1px solid var(–border-w);
 background:rgba(21,96,255,.05);
 }
 .h-panel-title{
-font-family:‘Barlow Condensed’,sans-serif;
+font-family:‘Barlow Condensed’,‘Arial Narrow’,Arial,sans-serif;
 font-size:.72rem;font-weight:700;letter-spacing:.28em;text-transform:uppercase;color:var(–muted);
 }
 .h-panel-live{
 display:flex;align-items:center;gap:.4rem;
-font-family:‘Barlow Condensed’,sans-serif;
+font-family:‘Barlow Condensed’,‘Arial Narrow’,Arial,sans-serif;
 font-size:.72rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(–green);
 }
 .feat{
@@ -311,14 +313,14 @@ transition:transform .3s ease;
 .feat:last-child{border-bottom:none}
 .feat-i{font-size:1.25rem;flex-shrink:0;opacity:.88}
 .feat-name{
-font-family:‘Barlow Condensed’,sans-serif;
+font-family:‘Barlow Condensed’,‘Arial Narrow’,Arial,sans-serif;
 font-size:.92rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
 color:var(–white);line-height:1.2;margin-bottom:2px;
 }
 .feat-s{font-size:.78rem;color:var(–silver);font-weight:400}
 .feat-badge{
 margin-left:auto;flex-shrink:0;
-font-family:‘Barlow Condensed’,sans-serif;
+font-family:‘Barlow Condensed’,‘Arial Narrow’,Arial,sans-serif;
 font-size:.68rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;
 padding:.18rem .55rem;
 border:1px solid var(–border);color:var(–blue);background:rgba(21,96,255,.1);
@@ -343,7 +345,7 @@ display:flex;align-items:center;gap:1rem;
 .stat:first-child{padding-left:0}
 .stat:last-child{border-right:none}
 .stat-n{
-font-family:‘Bebas Neue’,sans-serif;
+font-family:‘Bebas Neue’,‘Arial Narrow’,Arial,sans-serif;
 font-size:2.2rem;letter-spacing:.04em;color:var(–blue);line-height:1;
 text-shadow:var(–glow-s);
 }
@@ -365,7 +367,7 @@ content:’’;position:absolute;top:0;bottom:0;width:120px;z-index:2;pointer-ev
 .ticker::after{right:0;background:linear-gradient(270deg,var(–blue),transparent)}
 .ticker-inner{display:flex;white-space:nowrap;animation:ticker 35s linear infinite}
 .ti{
-font-family:‘Barlow Condensed’,sans-serif;
+font-family:‘Barlow Condensed’,‘Arial Narrow’,Arial,sans-serif;
 font-size:.9rem;font-weight:700;letter-spacing:.28em;text-transform:uppercase;
 color:rgba(255,255,255,.9);padding:0 2.5rem;
 }
@@ -379,13 +381,13 @@ SHARED SECTION UTILS
 
 .sec-eye{
 display:flex;align-items:center;gap:.8rem;margin-bottom:.8rem;
-font-family:‘Barlow Condensed’,sans-serif;
+font-family:‘Barlow Condensed’,‘Arial Narrow’,Arial,sans-serif;
 font-size:.75rem;font-weight:700;letter-spacing:.45em;text-transform:uppercase;color:var(–blue);
 }
 .sec-eye::before{content:’’;width:22px;height:1.5px;background:var(–blue);flex-shrink:0}
 
 .sec-h{
-font-family:‘Bebas Neue’,sans-serif;
+font-family:‘Bebas Neue’,‘Arial Narrow’,Arial,sans-serif;
 font-size:clamp(2.8rem,5.5vw,6rem);
 letter-spacing:.05em;text-transform:uppercase;
 color:var(–white);line-height:.9;margin-bottom:.5rem;
@@ -404,7 +406,7 @@ padding:0 3rem;max-width:1440px;margin:0 auto 3rem;
 }
 .sec-divider-line{flex:1;height:1px;background:var(–border-w)}
 .sec-divider-label{
-font-family:‘Barlow Condensed’,sans-serif;
+font-family:‘Barlow Condensed’,‘Arial Narrow’,Arial,sans-serif;
 font-size:.72rem;font-weight:700;letter-spacing:.35em;text-transform:uppercase;color:var(–muted);
 white-space:nowrap;
 }
@@ -433,7 +435,7 @@ radial-gradient(ellipse 30% 40% at 90% 80%,rgba(0,217,255,.06) 0%,transparent 55
 #wym::after{
 content:‘MY’;
 position:absolute;right:-0.1em;bottom:-0.2em;
-font-family:‘Russo One’,sans-serif;font-size:40vw;
+font-family:‘Russo One’,‘Arial Black’,sans-serif;font-size:40vw;
 -webkit-text-stroke:1px rgba(21,96,255,.04);color:transparent;
 line-height:1;pointer-events:none;z-index:0;letter-spacing:-.02em;
 }
@@ -473,19 +475,19 @@ transition:width .45s ease;
 /* ghost number watermark */
 .wc-num{
 position:absolute;top:.5rem;right:.8rem;
-font-family:‘Bebas Neue’,sans-serif;font-size:5rem;
+font-family:‘Bebas Neue’,‘Arial Narrow’,Arial,sans-serif;font-size:5rem;
 color:rgba(21,96,255,.18);line-height:1;pointer-events:none;
 }
 
 .wc-my{
-font-family:‘Russo One’,sans-serif;
+font-family:‘Russo One’,‘Arial Black’,sans-serif;
 font-size:5.5rem;font-style:italic;letter-spacing:-.01em;
 color:var(–blue);line-height:.9;
 text-shadow:0 0 60px rgba(21,96,255,.5);
 margin-bottom:.4rem;display:block;
 }
 .wc-word{
-font-family:‘Bebas Neue’,sans-serif;
+font-family:‘Bebas Neue’,‘Arial Narrow’,Arial,sans-serif;
 font-size:1.3rem;letter-spacing:.22em;text-transform:uppercase;
 color:var(–white);margin-bottom:1rem;
 padding-bottom:1rem;border-bottom:1px solid var(–border-w);
@@ -514,7 +516,7 @@ transition:background .2s;
 .af:hover{background:var(–card)}
 .af-ico{font-size:1.1rem;flex-shrink:0;opacity:.85}
 .af-label{
-font-family:‘Barlow Condensed’,sans-serif;
+font-family:‘Barlow Condensed’,‘Arial Narrow’,Arial,sans-serif;
 font-size:.95rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
 color:var(–white);
 }
@@ -543,24 +545,24 @@ border-radius:50%;pointer-events:none;
 /* giant watermark */
 .card-247-wm{
 position:absolute;right:-20px;bottom:-30px;
-font-family:‘Russo One’,sans-serif;font-size:13rem;
+font-family:‘Russo One’,‘Arial Black’,sans-serif;font-size:13rem;
 color:rgba(21,96,255,.05);line-height:1;pointer-events:none;letter-spacing:-.02em;
 }
 .card-247-open{
 display:inline-flex;align-items:center;gap:.5rem;
-font-family:‘Barlow Condensed’,sans-serif;
+font-family:‘Barlow Condensed’,‘Arial Narrow’,Arial,sans-serif;
 font-size:.78rem;font-weight:700;letter-spacing:.32em;text-transform:uppercase;
 color:var(–green);margin-bottom:1.5rem;position:relative;z-index:2;
 }
 .card-247-n{
-font-family:‘Russo One’,sans-serif;
+font-family:‘Russo One’,‘Arial Black’,sans-serif;
 font-size:8.5rem;letter-spacing:-.01em;
 color:var(–white);line-height:.82;position:relative;z-index:2;
 text-shadow:0 0 80px rgba(21,96,255,.18);
 }
 .card-247-n .sl{color:var(–blue)}
 .card-247-label{
-font-family:‘Bebas Neue’,sans-serif;
+font-family:‘Bebas Neue’,‘Arial Narrow’,Arial,sans-serif;
 font-size:1.6rem;letter-spacing:.28em;text-transform:uppercase;
 color:var(–muted);margin-top:.4rem;position:relative;z-index:2;
 }
@@ -598,7 +600,7 @@ transition:background .2s;
 .ast:last-child{border-right:none}
 .ast:hover{background:var(–panel)}
 .ast-n{
-font-family:‘Bebas Neue’,sans-serif;font-size:2.6rem;
+font-family:‘Bebas Neue’,‘Arial Narrow’,Arial,sans-serif;font-size:2.6rem;
 color:var(–blue);line-height:1;display:block;
 text-shadow:var(–glow-s);
 }
@@ -615,7 +617,7 @@ position:relative;overflow:hidden;
 #vip::before{
 content:‘VIP’;
 position:absolute;right:-3rem;top:50%;transform:translateY(-50%);
-font-family:‘Russo One’,sans-serif;font-size:30vw;
+font-family:‘Russo One’,‘Arial Black’,sans-serif;font-size:30vw;
 -webkit-text-stroke:1px rgba(21,96,255,.04);color:transparent;
 line-height:1;pointer-events:none;z-index:0;
 }
@@ -649,19 +651,19 @@ opacity:0;transition:opacity .3s;
 }
 .vi:hover::after{opacity:1}
 .vi-num{
-font-family:‘Barlow Condensed’,sans-serif;
+font-family:‘Barlow Condensed’,‘Arial Narrow’,Arial,sans-serif;
 font-size:.76rem;font-weight:700;letter-spacing:.32em;text-transform:uppercase;
 color:var(–muted);margin-bottom:1.2rem;
 }
 .vi-ico{font-size:2.4rem;display:block;margin-bottom:1.2rem}
 .vi-name{
-font-family:‘Bebas Neue’,sans-serif;
+font-family:‘Bebas Neue’,‘Arial Narrow’,Arial,sans-serif;
 font-size:2rem;letter-spacing:.08em;text-transform:uppercase;
 color:var(–white);margin-bottom:.6rem;
 }
 .vi-tag{
 display:inline-block;margin-bottom:1.2rem;
-font-family:‘Barlow Condensed’,sans-serif;
+font-family:‘Barlow Condensed’,‘Arial Narrow’,Arial,sans-serif;
 font-size:.72rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase;
 padding:.22rem .65rem;border:1px solid rgba(0,217,255,.25);
 color:var(–cyan);background:rgba(0,217,255,.07);
@@ -692,7 +694,7 @@ align-content:flex-start;
 padding-top:.25rem;
 }
 .eq-style-tag{
-font-family:‘Barlow Condensed’,sans-serif;
+font-family:‘Barlow Condensed’,‘Arial Narrow’,Arial,sans-serif;
 font-size:.82rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;
 color:var(–blue);
 border:1px solid var(–border);
@@ -708,7 +710,7 @@ color:var(–white);
 
 /* equipment card tag line */
 .eq-tag{
-font-family:‘Barlow Condensed’,sans-serif;
+font-family:‘Barlow Condensed’,‘Arial Narrow’,Arial,sans-serif;
 font-size:.72rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;
 color:var(–blue);opacity:.8;
 margin-bottom:.5rem;display:block;
@@ -736,7 +738,7 @@ opacity:0;transition:opacity .3s;
 .eq:hover::before{opacity:1}
 .eq-ico{font-size:1.9rem;display:block;margin-bottom:1rem;opacity:.85}
 .eq-name{
-font-family:‘Bebas Neue’,sans-serif;
+font-family:‘Bebas Neue’,‘Arial Narrow’,Arial,sans-serif;
 font-size:1.2rem;letter-spacing:.12em;text-transform:uppercase;
 color:var(–white);margin-bottom:.55rem;
 }
@@ -765,39 +767,39 @@ background:linear-gradient(90deg,var(–blue),var(–cyan),var(–blue));
 .mc::after{
 content:attr(data-price);
 position:absolute;right:-5px;bottom:-15px;
-font-family:‘Russo One’,sans-serif;font-size:13rem;
+font-family:‘Russo One’,‘Arial Black’,sans-serif;font-size:13rem;
 color:rgba(21,96,255,.04);line-height:1;pointer-events:none;
 }
 .mc-pop{
 position:absolute;top:2.2rem;right:2.2rem;
-font-family:‘Barlow Condensed’,sans-serif;
+font-family:‘Barlow Condensed’,‘Arial Narrow’,Arial,sans-serif;
 font-size:.72rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;
 background:var(–blue);color:var(–white);padding:.26rem .75rem;
 }
 .mc-tier{
-font-family:‘Barlow Condensed’,sans-serif;
+font-family:‘Barlow Condensed’,‘Arial Narrow’,Arial,sans-serif;
 font-size:.78rem;font-weight:700;letter-spacing:.35em;text-transform:uppercase;
 color:var(–blue);margin-bottom:.5rem;
 }
 .mc-name{
-font-family:‘Bebas Neue’,sans-serif;
+font-family:‘Bebas Neue’,‘Arial Narrow’,Arial,sans-serif;
 font-size:2.5rem;letter-spacing:.07em;text-transform:uppercase;
 color:var(–white);line-height:1;margin-bottom:1.5rem;
 }
 .mc-price{display:flex;align-items:baseline;gap:.2rem;margin-bottom:.3rem}
 .mc-dollar{
-font-family:‘Barlow Condensed’,sans-serif;
+font-family:‘Barlow Condensed’,‘Arial Narrow’,Arial,sans-serif;
 font-size:1.6rem;font-weight:700;color:var(–blue);
 align-self:flex-start;margin-top:.5rem;
 }
 .mc-amount{
-font-family:‘Russo One’,sans-serif;
+font-family:‘Russo One’,‘Arial Black’,sans-serif;
 font-size:5.5rem;color:var(–blue);line-height:.9;
 text-shadow:0 0 40px rgba(21,96,255,.4);
 }
 .mc-mo{font-size:.82rem;font-weight:400;letter-spacing:.15em;text-transform:uppercase;color:var(–muted);margin-bottom:2.5rem;display:block}
 .mc-price-alt{
-font-family:‘Russo One’,sans-serif;
+font-family:‘Russo One’,‘Arial Black’,sans-serif;
 font-size:2.8rem;letter-spacing:.04em;text-transform:uppercase;
 color:var(–blue);line-height:1;
 text-shadow:0 0 30px rgba(21,96,255,.4);
@@ -839,13 +841,13 @@ transition:background .2s;
 .fq:nth-last-child(-n+2){border-bottom:none}
 .fq:hover{background:rgba(21,96,255,.04)}
 .fq-q{
-font-family:‘Bebas Neue’,sans-serif;
+font-family:‘Bebas Neue’,‘Arial Narrow’,Arial,sans-serif;
 font-size:1rem;letter-spacing:.1em;text-transform:uppercase;
 color:var(–white);margin-bottom:.75rem;
 display:flex;align-items:start;gap:.9rem;line-height:1.2;
 }
 .fq-n{
-font-family:‘Barlow Condensed’,sans-serif;
+font-family:‘Barlow Condensed’,‘Arial Narrow’,Arial,sans-serif;
 font-size:.72rem;font-weight:700;letter-spacing:.1em;
 background:var(–blue);color:var(–white);
 padding:.24rem .48rem;flex-shrink:0;margin-top:.08rem;
@@ -874,18 +876,18 @@ rgba(21,96,255,.016) 55px,rgba(21,96,255,.016) 56px
 #cta::after{
 content:‘MY’;
 position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
-font-family:‘Russo One’,sans-serif;font-size:40vw;
+font-family:‘Russo One’,‘Arial Black’,sans-serif;font-size:40vw;
 -webkit-text-stroke:1px rgba(21,96,255,.04);color:transparent;
 line-height:1;pointer-events:none;white-space:nowrap;
 }
 .cta-inner{position:relative;z-index:2}
 .cta-kicker{
-font-family:‘Barlow Condensed’,sans-serif;
+font-family:‘Barlow Condensed’,‘Arial Narrow’,Arial,sans-serif;
 font-size:.78rem;font-weight:700;letter-spacing:.5em;text-transform:uppercase;
 color:rgba(21,96,255,.75);margin-bottom:1.2rem;
 }
 .cta-h{
-font-family:‘Russo One’,sans-serif;
+font-family:‘Russo One’,‘Arial Black’,sans-serif;
 font-size:clamp(4rem,10vw,12rem);
 text-transform:uppercase;color:var(–white);line-height:.88;margin-bottom:1.5rem;
 }
@@ -919,7 +921,7 @@ margin-bottom:3rem;
 }
 .foot-brand img{height:46px;width:46px;object-fit:contain;mix-blend-mode:screen;display:block;margin-bottom:.85rem;filter:brightness(1.2)}
 .foot-wordmark{
-font-family:‘Bebas Neue’,sans-serif;
+font-family:‘Bebas Neue’,‘Arial Narrow’,Arial,sans-serif;
 font-size:1.9rem;letter-spacing:.14em;text-transform:uppercase;
 color:var(–white);line-height:1;margin-bottom:3px;
 }
@@ -927,7 +929,7 @@ color:var(–white);line-height:1;margin-bottom:3px;
 .foot-wym{font-size:.68rem;font-weight:400;letter-spacing:.35em;text-transform:uppercase;color:var(–muted);margin-bottom:1.2rem}
 .foot-desc{font-size:.9rem;line-height:1.8;color:var(–muted);max-width:260px}
 .foot-col h5{
-font-family:‘Barlow Condensed’,sans-serif;
+font-family:‘Barlow Condensed’,‘Arial Narrow’,Arial,sans-serif;
 font-size:.78rem;font-weight:700;letter-spacing:.32em;text-transform:uppercase;
 color:var(–blue);margin-bottom:1.5rem;
 padding-bottom:.65rem;border-bottom:1px solid var(–border);
@@ -946,12 +948,12 @@ display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap
 .foot-bottom p{font-size:.78rem;color:rgba(64,72,104,.55)}
 .foot-r{display:flex;align-items:center;gap:2.5rem}
 .foot-hash{
-font-family:‘Bebas Neue’,sans-serif;
+font-family:‘Bebas Neue’,‘Arial Narrow’,Arial,sans-serif;
 font-size:.95rem;letter-spacing:.22em;color:rgba(21,96,255,.38);
 }
 .foot-live{
 display:flex;align-items:center;gap:.5rem;
-font-family:‘Barlow Condensed’,sans-serif;
+font-family:‘Barlow Condensed’,‘Arial Narrow’,Arial,sans-serif;
 font-size:.82rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(–green);
 }
 
